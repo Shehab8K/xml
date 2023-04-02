@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <location>Alexandria</location>
+    <description>Alexandria's library, where knowledge is power</description>
+    <librarian>Shehab</librarian>
+
+
+    <book title="AOT" ISBN="1">
+        <author>Hajime Isayama</author>
+        <preface>After the end of humanity the last survivors build a 50 m wall to protect themselves from the danger in order to live in peace</preface>
+        <part>
+            <title>Living Beyond the walls</title>
+            <chapter>
+                <title>The Fall</title>
+                <summary>The day humanity know how to be ruled by titans and they lose their freedom</summary>
+                <section>Shiganshina</section>
+                <section>Eren Yeager</section>
+            </chapter>
+
+            <chapter>
+                <title>Freedom Corp</title>
+                <summary>After titans breached the wall and half of the humanity beyond the wall died eren, and his friend decided to join freedom corp to fight back for their freedom</summary>
+                <section>Tatakae</section>
+                <section>Gresha</section>
+            </chapter>
+
+            <chapter>
+                <title>Another Breach</title>
+                <summary>After 5 years of training the colosal titan attacked the wall again making new hole will humanity suffer again or the freedom corps will fight</summary>
+                <section>Eren transformation</section>
+                <section>The attacking titan</section>
+            </chapter>
+        </part>
+
+        <part>
+            <title>The truth behind the titans</title>
+            <chapter>
+                <title>Levi</title>
+                <summary>Levi vs the beast titan fighting while erwin smith making a suicide plan to open a vulnerability in titans tatics</summary>
+                <section>Tatakae</section>
+                <section>Shinzou sasageyo</section>
+            </chapter>
+
+            <chapter>
+                <title>Marley</title>
+                <summary>behind the see was no freedom, but enemies, the fight between marley and eldians</summary>
+                <section>Riener's Flashbacks</section>
+                <section>Libereo</section>
+            </chapter>
+
+            <chapter>
+                <title>Rumbling</title>
+                <summary>hear me subjects of yemir ore no nawa eren yeager, and eren will activate rumbling till every life beyond the walls is perished</summary>
+                <section>Freedom</section>
+                <section>Armin's plan</section>
+            </chapter>
+        </part>
+    </book>
+
+    <book title="Harry-Potter" ISBN="1234">
+        <author>J. K. Rowling</author>
+        <preface>After murdering Harry's parents, James and Lily Potter, evil Lord Voldemort puts a killing curse on Harry, then just a baby. The curse inexplicably reverses, defeating Voldemort and searing a lightning-bolt scar in the middle of the infant's forehead. Harry is then left at the doorstep of his boring but brutish aunt and uncle, the Dursleys.</preface>
+        <part>
+            <title>THE BOY WHO LIVED</title>
+            <chapter>
+                <title>Harry Potter and the Philosophers Stone</title>
+                <summary>Grunnings, which made drills. He was a big, beefy
+man with hardly any neck, although</summary>
+                <section>Voldemort</section>
+                <section>Dementors</section>
+            </chapter>
+
+            <chapter>
+                <title> Harry Potter and the Chamber of Secrets</title>
+                <summary>assembly clapped wildly; Harry started to clap, too, but stopped quickly at
+the sight of Nicks face</summary>
+                <section>Tournament</section>
+                <section>Wingardium Levi osa</section>
+            </chapter>
+
+            <chapter>
+                <title>Harry Potter and the Deathly Hallows</title>
+                <summary>“Er … all right,” said Hermione nervously. She opened the book, and Harry
+saw that the symbol they were</summary>
+                <section>Voldemort</section>
+                <section>Avada Kedavra</section>
+            </chapter>
+        </part>
+
+        <part>
+            <title>Fighting Darkness</title>
+            <chapter>
+                <title>War</title>
+                <summary>Witches warming to fight agianst dark lord in order to restore peace</summary>
+                <section>Defeat</section>
+                <section>Never Surrender</section>
+            </chapter>
+
+            <chapter>
+                <title>Final</title>
+                <summary>After the hero's death what will happen? the original story</summary>
+                <section>Flashbacks</section>
+                <section>Hope</section>
+            </chapter>
+        </part>
+    </book>
+
+</library>

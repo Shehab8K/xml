@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./contract.css"?>
+<contract>
+    <employee>
+        <name>Shehab</name>
+        <phone type="mobile">01152254433</phone>
+        <phone type="home">035844750</phone>
+        <email>Shehab@gmail.com</email>
+        <address>
+            <street>el fath</street>
+            <building-number>30</building-number>
+            <region>Flemng</region>
+            <city>Alexandria</city>
+            <country>Egypt</country>
+        </address>
+    </employee>
+
+    <employee>
+        <name>Mariam</name>
+        <phone type="mobile">01252254433</phone>
+        <phone type="home">042844750</phone>
+        <email>Mariam@gmail.com</email>
+        <address>
+            <street>Alexander</street>
+            <building-number>30</building-number>
+            <region>sidi Beshr</region>
+            <city>Alexandria</city>
+            <country>Egypt</country>
+        </address>
+    </employee>
+
+        <employee>
+        <name>Malek</name>
+        <phone type="mobile">01234566433</phone>
+        <phone type="home">035844750</phone>
+        <email>Malek@gmail.com</email>
+        <address>
+            <street>Foad</street>
+            <building-number>10</building-number>
+            <region>Bab Sharq</region>
+            <city>Alexandria</city>
+            <country>Egypt</country>
+        </address>
+    </employee>
+</contract>
