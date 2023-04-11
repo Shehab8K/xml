@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="emp.xsl"?>
+<contract xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file:///D:/ITI/XML/Lab3/employee.xsd">
+	<employee>
+		<name>Shehab</name>
+		<phones>
+			<phone type="mobile">01152254433</phone>
+			<phone type="home">035844750</phone>
+		</phones>
+		<email>Shehab@gmail.com</email>
+		<addresses>
+			<address>
+				<street>el fath</street>
+				<building-number>30</building-number>
+				<region>Flemng</region>
+				<city>Alexandria</city>
+				<country>Egypt</country>
+			</address>
+		</addresses>
+	</employee>
+	<employee>
+		<name>Mariam</name>
+		<phones>
+			<phone type="mobile">01252254433</phone>
+			<phone type="home">042844750</phone>
+		</phones>
+		<email>Mariam@gmail.com</email>
+		<addresses>
+			<address>
+				<street>Alexander</street>
+				<building-number>30</building-number>
+				<region>sidi Beshr</region>
+				<city>Alexandria</city>
+				<country>Egypt</country>
+			</address>
+		</addresses>
+	</employee>
+	<employee>
+		<name>Malek</name>
+		<phones>
+			<phone type="mobile">01234566433</phone>
+			<phone type="home">035844750</phone>
+		</phones>
+		<email>Malek@gmail.com</email>
+		<addresses>
+			<address>
+				<street>Alexander</street>
+				<building-number>30</building-number>
+				<region>sidi Beshr</region>
+				<city>Alexandria</city>
+				<country>Egypt</country>
+			</address>
+		</addresses>
+	</employee>
+</contract>
