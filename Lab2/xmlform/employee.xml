@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="./contract.css"?>
+<contract>
+    <employee>
+        <name>Shehab</name>
+        <phones>
+            <phone>01152254433</phone>
+        </phones>
+        <email>Shehab@gmail.com</email>
+        <addresses>
+            <address>
+                <street>el fath</street>
+                <buildingNum>30</buildingNum>
+                <region>Flemng</region>
+                <city>Alexandria</city>
+                <country>Egypt</country>
+            </address>
+        </addresses>
+    </employee>
+
+    
+
+<employee><name>malek</name><email>malek@gmail.com</email><phones><phone>1234567</phone></phones><addresses><address><street>Eskandar</street><buildingNum>420</buildingNum><region>Miami</region><city>Alexandria</city><country>Egypt</country></address></addresses></employee><employee><name>Ahmed</name><email>Ahmed@gmail.com</email><phones><phone>000011111111</phone></phones><addresses><address><street>any</street><buildingNum>420</buildingNum><region>flemng</region><city>Abo Qeer</city><country>Egypt</country></address></addresses></employee></contract>

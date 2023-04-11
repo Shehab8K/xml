@@ -1,0 +1,133 @@
+html,body{
+    margin: 0;
+}
+body{
+    background-image: url("./img/officebg.jpg");
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("./img/officebg.jpg");
+    filter: blur(5px);
+    z-index: -1;
+  }
+.form-container, .search-container{
+  background-color: rgba(255, 255, 255, 1);
+    padding: 1.5em;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+    margin-top: calc(100%/30);
+}
+.main-title{
+    margin: 0.5em 0 0.8em;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Button */
+
+.login-button, .search-button{
+    color: white;
+    background-color: #F47458;
+    padding: 0.2em 1em;
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+}
+
+.search-button{
+    width: 8em;
+    padding: 0.3em 1em;
+}
+
+.login-button:hover , .search-button:hover{
+    background-color: #f85632;
+}
+
+/* End Button */
+
+/* I used !important to override bootstrap properties */
+input{
+    background-color: #FFF6F4 !important;
+}
+input:focus{
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
+.fa-lg{
+    padding: 12px 2px;
+    box-sizing: border-box;
+}
+
+.arrows, .actions{
+   background-color: #f8f9fa;
+   border: 1px solid rgba(0, 0, 0, 0.3);
+   height: 2em;
+   width: 2em;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.actions{
+    background-color: black;
+    color: white;
+}
+.actions:hover{
+    background-color: white;
+    color: black;
+}
+.actions-container{
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.search-container{
+    position: fixed;
+    top: 50%;
+    left: 35%;
+    opacity: 0;
+    transform: translate(-50%, -85%);
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.4);
+    animation: fadeIn 0.2s ease-in-out forwards;
+    display: block;
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+.hide{
+    display: none;
+}
+.close{
+    background: transparent;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+    float: right;
+}
+
+.search-input{
+    border-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    #makeMaxWidth{
+        width: 90% !important;
+    }
+  }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT contract (employee+)>
+<!ELEMENT employee (name, phones, email, addresses)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT phones (phone+)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT addresses (address+)>
+<!ELEMENT address (street, building-number,region,city,country)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT building-number (#PCDATA)>
+<!ELEMENT region (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ATTLIST phone type CDATA #FIXED "home">
+<!ATTLIST phone type CDATA #FIXED "work">
+<!ATTLIST phone type CDATA #FIXED "mobile">
